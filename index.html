@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>formularz</title>
+</head>
+<body>
+<form action="/submit" method="post">
+
+    <label for="imię">imię</label>
+    <input type="text" id="imię" name="imię">
+
+    <label for="nazwisko">nazwisko</label>
+    <input type="text" id="nazwisko" name="nazwisko">
+
+    <label for="adres">adres</label>
+    <input type="text" id="adres" name="adres">
+
+    <label for="kraj">kraj</label>
+    <select id="kraj" name="kraj">
+        <option>polska</option>
+        <option>niemcy</option>
+    </select>
+
+    <label for="telefon">telefon</label>
+    <input type="tel" id="telefon" name="telefon">
+
+    <label for="płeć">płeć</label>
+    <label for="m">mężczyzna</label>
+    <input type="radio" id="m" name="płeć" value="mężczyzna">
+    <label for="k">kobieta</label>
+    <input type="radio" id="k" name="płeć" value="kobieta">
+
+    <label for="email">email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="akceptuję">akceptuję regulamin</label>
+    <input type="checkbox" id="akceptuj" name="akceptuję" value="tak">
+
+    <button type="submit">wyślij</button>
+</form>
+
+</body>
+</html>
+
